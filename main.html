@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Ally clicker </title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="leftBar">
+        <div class="pad">
+            <p>Enviar e-mails</p>
+            <button onclick="allyClick()">Clique aqui</button>
+            <img class="rocket" src="Rocket.png"/>
+            <br>
+            <br>
+            <p id="aliados"></p>
+            <p id="aliadosPorSegundo"></p>
+        </div>
+        <div class="version">
+            <p>Versão 1.0.0</p>
+        </div>
+    </div>
+
+    <div class="centralArea">
+    <h1>Bora dale!</h1>
+    <div class="pad">
+        <p>Quantos aliados do intercâmbio você consegue recrutar formando a equipe perfeita?</p>
+        <p>Clique na esquerda para recrutar aliados por meio de e-mails pessoais, 1 a 1.</p>
+        <p>Se conseguir aliados suficientes, pode contratar um estagiário no menu da direita para fazer parte do seu serviço, recrutando aliados a cada segundo para você!</p>
+        <p>Quem sabe o que mais te aguarda após isso?</p>
+    </div>
+    <img class="ally" src="Ally.png"/>
+
+    </div>
+
+    <div class="rightBar">
+        <div class="aliadoEstagiario">
+            <p class="aliado">Estagiário P.I. (Custo: <span id="preçoEstagiario"></span>)</p>
+            <p class="aliadoDescricao"> Estagiários cadastram prices, trazendo novos aliados para sua plataforma!</p>
+            <button onclick="estagiario()">Clique aqui</button>
+            <p id="estagiarios"></p>
+        </div>
+
+        <div id="devUnlock" class="aliadoDev">
+            <p class="aliado">Dev (Custo: <span id="preçoDevs"></span>)</p>
+            <p class="aliadoDescricao"> Devs costumam alterar o sistema conforme você pede, depende da sua sorte...</p>
+            <button onclick="dev()">Clique aqui</button>
+            <p id="devs"></p>
+        </div>
+
+        <div id="douglasUnlock" class="aliadoDev">
+            <p class="aliado">Douglas (Custo: <span id="preçoDouglas"></span>)</p>
+            <p class="aliadoDescricao"> Aquele que todos se lembram no começo do mês.</p>
+            <button onclick="douglas()">Clique aqui</button>
+            <p id="douglas"></p>
+        </div>
+        
+    </div>
+</body>
+</html>

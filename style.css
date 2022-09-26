@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+  }
+
+.pad { 
+    text-align: justify;
+    font-size: 18px;
+    font-family: "Times New Roman";
+}
+
+.rocket {
+  width: 35px;
+  vertical-align: middle;
+}
+
+.ally {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.leftBar {
+  float: left;
+  width: 30%;
+  height: 600px;
+  padding:  1%;
+  border: solid black;
+}
+
+.version {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
+}
+
+.rightBar {
+  float: left;
+  width: 30%;
+  height: 600px;
+  padding:  1%;
+  border: solid black;
+}
+
+.centralArea {
+  float: left;
+  width: 30%;
+  height: 600px;
+  padding:  1%;
+  border: solid black;
+}
+
+.aliado {
+  font-size: 20px;
+}
+
+.aliadoDescricao {
+  font-size: 14px;
+  color: gray;
+}
